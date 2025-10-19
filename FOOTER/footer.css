@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white ;
+}
+footer{
+    background-color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40%;
+    padding: 80px  10%;
+}
+h2{
+    font-size: 20px;
+    color: gold;
+    margin-bottom: 20px;
+}
+.list ul li{
+    list-style: none;
+    transition-duration: 0.5s ease-in-out;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.list ul li a:hover{
+    color: gold;
+}
+li{
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    transition-duration: 0.5s ease-in-out;
+}
+list a:hover{
+    color: blue;
+    transition-duration: 0.5s ease-in-out;
+}
+.bottom-bar{
+    text-align: center;
+    border: 2px solid black;
+}
